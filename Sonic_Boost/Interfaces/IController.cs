@@ -1,8 +1,13 @@
-﻿using System;
+﻿using Microsoft.Xna.Framework;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
 
-public class Class1
+namespace Sonic_Boost
 {
-	public Class1()
-	{
-	}
+    interface IController
+    {
+        void Update(GameTime gameTime);
+    }
 }
