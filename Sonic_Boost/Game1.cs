@@ -41,6 +41,7 @@ namespace Sonic_Boost
             spriteBatch = new SpriteBatch(GraphicsDevice);
 
             // TODO: use this.Content to load your game content here
+            
         }
 
         /// <summary>
@@ -76,6 +77,7 @@ namespace Sonic_Boost
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
             // TODO: Add your drawing code here
+           
 
             base.Draw(gameTime);
         }
